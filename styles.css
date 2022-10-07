@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+}
+
+
+#hero {
+  width: auto;
+  height: 95vh;
+  display: flex;
+  margin: 1rem 1rem 1rem 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.951), rgba(0, 0, 0, 0)), url(img/l.jpg) no-repeat center / cover;
+  background-attachment: center;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  
+
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+h2 {
+  max-width: 20rem;
+}
+
+p {
+  margin: 1rem;
+  max-width: 15rem;
+  text-align: center;
+}
+
+ .btn {
+  display: block;
+  padding: 1rem;
+  color:white;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color:#e7d679
+  
+}
+
+ .btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: light orange;
+}
+
+body{ 
+  background-color: #333435;
+  line-height: 1.5rem;
+}
+
